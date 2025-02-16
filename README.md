@@ -14,3 +14,10 @@ Um BD de uma loja de informática com dados de clientes cadastrados.
     - Condiões complexas
     - Por coluna
   - Em seguida, são atualizados os dados da tabela.
+
+* Como funcionam as deleções?
+  - No arquivo de deleção de dados, é possível ver as possíveis formas de deletar dados, entre elas:
+     - Campo individual
+     - Condições complexas
+     - Tabela por inteiro
+    - O comando TRUNCATE é referenciado como um comando destinado a tabelas temporárias, pois ele exclui a o programa todo, sem passar em linha por linha, como o DELETE. Portanto, se torna mais eficiente e, no entanto, irreversível.
