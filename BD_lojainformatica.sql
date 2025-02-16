@@ -33,3 +33,5 @@ CREATE TABLE IF NOT EXISTS cliente_cadastrado(
 	-- Inserir registro sem especificar campos
     INSERT INTO cliente_cadastrado VALUES (NULL, 'Tomas', 'tomasassuncao05@email.com', '2005-11-20', 3250.00, NULL, TRUE, 1);
     
+	-- Alterando coluna
+    ALTER TABLE cliente_cadastrado CHANGE cadastro_ativo cadastro VARCHAR(255) NOT NULL;
